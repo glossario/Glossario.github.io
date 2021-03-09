@@ -138,3 +138,8 @@ form button:hover {
     background-color: whitesmoke;
     color: green;
 }
+@media (max-width: 576px){
+# menu{
+whidth: 100%;	
+}
+}
