@@ -1,0 +1,72 @@
+<html lang='pt- br'>
+<!doctype html>
+<html lang='pt- br'>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="sortcut icon" href="iconis/lib.jpg" type="image/x-icon"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5bde6684d6.js" crossorigin="anonymous"></script>
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <title>Libras Matematicando</title>
+</head>
+
+<body bgcolor=Grey id="a">
+
+<div id='menu'>
+
+<ul>
+   <header>
+  
+    <li><a href='index.html'> PAGINA INICIAL</a></li>
+    <li><a href='simbolos.html'>SIMBOLOS</a></li>
+  
+  <form>
+  
+      <input type="txt" name="seach" id="seach" placehOlder= "FAÇA SUA BUSCA" required>
+	   </form>
+       <button type="submit" onclick="changePage()"><i class="fas fa-search"></i></button>
+  
+  
+   </ul>
+  </header> 
+</div>
+<div class='footer'>
+    
+    <center>
+	<img src="gifs/menor.gif" width="420" height="350"  />
+	</center>
+	
+</div>
+
+
+<div class='footer'>
+<div id="branca">
+<p></p>
+   <a  class= "Social" href='https://www.facebook.com/glossario.libras'>
+           <img src="iconis/icomfac.jpg" height="32" width="32"></a>  
+  <a class= "Social" href='https://www.instagram.com/invites/contact/?i=1b3jv3iaccq80&utm_content=kt6ja1w'> 
+             <img src="iconis/icomins.jpg" height="32" width="32"></a> 
+  <a  class= "Social" href='https://ifbaiano.edu.br/portal/governador-mangabeira/'>
+  <img src="iconis/icomif.png" height="40" width="200"></a>
+  
+   </div>
+<div id="escura">
+        	<p>" Libra + Matematica"</p>
+        	<samp>matematica==libra</samp>
+      </div>
+<div id="Copyright">Copyright © 2021 Libras Matematicando - Todos os direitos reservados</div>
+</div>
+
+<script>
+  function changePage(){
+    var pageName = document.getElementById("seach").value
+
+  window.location.replace(pageName+".html")
+}
+</script>
+
+</body>
+</html>

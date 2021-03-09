@@ -1,0 +1,140 @@
+
+   #a{
+      background-image: url(iconis/lib.jpg);
+	      display: block;
+         margin: 8px;
+   }
+   # menu{
+	   
+   }
+   #menu ul{
+	 margin: o;
+     background-color: green;
+	 list-style:none;
+   }
+   #menu ul li{
+	   display:inline;
+   }
+   
+   #menu ul li a{
+	   padding: 10px 20px;
+	   display: inline-block;
+	    color: black;
+		text-decoration: none;
+
+   }
+    #menu ul li a:hover{
+		color: white;
+	}
+	#SubTitulo {
+    text-align: center;
+    font-size: 20px;
+    color: #2cd262;
+    font-family: "Source Sans Pro";
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    background-color: #222;
+    margin-top: -20px;
+    margin-bottom: 60px;
+    margin-left: 17px;
+    margin-right: 16px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+}
+	
+	.footer #branca {
+    background-color: #838383;
+    height: 60px;
+    margin-top: 125px;
+    border-bottom: solid white 2px;
+    border-top: solid 3px black;
+}
+
+	.footer #branca {
+    background-color: #838383;
+    height: 60px;
+    margin-top: 125px;
+    border-bottom: solid green 2px;
+    border-top: solid 3px black;
+}
+div {
+    display: block;
+}
+.Social {
+    padding-left: 19px;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.footer #escura {
+    background-color: black;
+    margin-top: -30px;
+    height: 100px;
+}
+.footer #escura p {
+    font-size: 30px;
+    text-align: center;
+    color: wheat;
+    padding-top: 20px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#Copyright {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+div {
+    display: block;
+}
+header {
+	display: flex;
+	align-items: center;
+    justify-content: left;
+	padding: 0,7em;
+}
+form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+	
+	
+}
+
+form input, form button {
+    font-size: 1em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background-color: whitesmoke;
+    color: green;
+}

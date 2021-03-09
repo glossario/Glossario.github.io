@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang='pt- br'>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="sortcut icon" href="iconis/lib.jpg" type="image/x-icon">
+   <meta name="description" content="Glossario de sinbolos matematicos em linguagem de sinais brasileira(libras)" >
+    <meta name="keyowrds" content="sinbolos matematicos,libras,glossario">
+	<meta name="author" content="Alyson Bingre De Jeus">
+	<link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5bde6684d6.js" crossorigin="anonymous"></script>
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <title>Libras Matematicando</title>
+</head>
+
+<body bgcolor=Grey>
+
+<div id='menu'>
+
+<ul>
+   <header>
+    
+    <li><a href='pagina1.html'> PAGINA INICIAL</a></li>
+    <li><a href='simbolos.html'>SIMBOLOS</a></li>
+    
+     
+      <input type="txt" name="seach" id="seach" placehOlder= "FAÇA SUA BUSCA" required>
+	
+       <button type="submit" onclick="changePage()"><i class="fas fa-search"  ></i></button>
+	   
+     </header>
+   </ul>
+  
+</div>
+
+<div>
+<p id="SubTitulo">Texto Introdutorio</p>
+</div>
+<p></p>
+<center>
+<font face="Arial">
+Segundo censo realizado em 2010 pelo Instituto Brasileiro de Geografia e Estatística-IBGE, cerca de 9,7 milhões de brasileiros possuem deficência auditiva (DA),
+ o que representa 5,1% da população brasileira. Deste total cerca de 2 milhões possuem a deficiência auditiva severa (1,7 milhões têm grande dificuldade para ouvir e 344,2 mil são surdos),
+ e 7,5 milhões apresentam alguma dificuldade auditiva. No que se refere a idade, cerca de 1 milhão de deficientes auditivos são crianças e jovens até 19 anos. O censo também revelou que o maior número de deficientes auditivos,
+ cerca de 6,7 milhões, estão concentrados nas áreas urbanas.
+ Já, de acordo com a Organização Mundial de Saúde (2011) 28 milhões de brasileiros possuem algum tipo de problema auditivo, o que revela um quadro no qual 14,8% do total de 190 milhões de brasileiros, possuem problemas ligados à audição.
+</font>
+<p> </p>
+
+</center>
+LEIA MAIS EM:
+<a href="http://otocenter.com.br/deficiencia-auditiva-atinge-97-milhoes-de-brasileiros/#:~:text=Segundo%20censo%20realizado%20em%202010,%2C1%25%20da%20popula%C3%A7%C3%A3o%20brasileira.&text=O%20SBO%20afirma%20que%20cerca,sintoma%20que%20indica%20perda%20auditiva.">OTO CENTER</a>
+
+<center>
+<div class="box">
+    <img src="gifs/bemv.gif" width="320" height="205" />
+    
+    <img src="gifs/bemv.gif" width="320" height="205" />
+   
+   <img src="gifs/bemv.gif" width="320" height="205" />
+</div>
+</center>
+
+<div class='footer'>
+
+<div id="branca">
+<p></p>
+  <a  class= "Social" href='https://www.facebook.com/glossario.libras'>
+           <img src="iconis/icomfac.jpg" height="32" width="32"></a>  
+  <a class= "Social" href='https://www.instagram.com/invites/contact/?i=1b3jv3iaccq80&utm_content=kt6ja1w'> 
+             <img src="iconis/icomins.jpg" height="32" width="32"></a> 
+  <a  class= "Social" href='https://ifbaiano.edu.br/portal/governador-mangabeira/'>
+  <img src="iconis/icomif.png" height="40" width="200"></a>
+  
+
+   </div>
+<div id="escura">
+        	<p>" Libra + Matematica"</p>
+        	<samp>matematica==libra</samp>
+      </div>
+<div id="Copyright">Copyright © 2021 Libras Matematicando - Todos os direitos reservados</div>
+</div>
+<script>
+  function changePage(){
+    var pageName = document.getElementById("seach").value
+
+  window.location.replace(pageName+".html")
+}
+</script>
+</body>
+
+</html>
